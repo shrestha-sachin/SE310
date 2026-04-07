@@ -19,6 +19,9 @@ def integer_division(number1, number2):
 def division(number1, number2):
     print("We are performing division on " + str(number1) + " and " + str(number2))
     return number1 / number2
+def SQRT(number):
+  print("We are calculating the square root of " + str(number))
+  return number ** 0.5
 
 
 def calculator():
