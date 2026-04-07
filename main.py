@@ -16,6 +16,10 @@ def integer_division(number1, number2):
   print("We are performing integer division on " + str(number1) + " and " + str(number2))
   return number1 // number2
 
+def division(number1, number2):
+    print("We are performing division on " + str(number1) + " and " + str(number2))
+    return number1 / number2
+
 
 def calculator():
   print("Calculator by team =  " + team_name)
