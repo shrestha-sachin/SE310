@@ -1,5 +1,5 @@
 import unittest
-import math
+
 from main import division, integer_division, SQRT
 
 class TestCalculatorEdgeCases(unittest.TestCase):
@@ -30,8 +30,8 @@ class TestCalculatorEdgeCases(unittest.TestCase):
     def test_sqrt_negative_number(self):
         """Test that sqrt of negative number raises ValueError"""
         with self.assertRaises(ValueError):
-            import math
-            math.sqrt(-9, "Square root of negative number should raise an error")  
+            
+            SQRT(-9, "Square root of negative number should raise an error")  
 
     def test_sqrt_zero(self):
         """Test square root of zero"""
